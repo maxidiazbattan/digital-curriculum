@@ -4,7 +4,7 @@
 
 This is my digital resume in which you'll be able to find my work experience, qualifications, and different projects that I have carried out. It's not an original idea, but I like it.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://maxidiazbattan-digital-resume-app-v778fo.streamlit.app/main/app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://maxidiazbattan-digital-resume-app-v778fo.streamlit.app/)
 
 
 # Streamlit Share Deployment
