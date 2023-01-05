@@ -1,6 +1,6 @@
 ![digital-resume-crop.jpg](https://github.com/maxidiazbattan/digital-resume/blob/main/digital-resume-crop.jpg)
 
-# Digital resume
+# Digital curriculum
 
 This is my digital resume in which you'll be able to find my work experience, qualifications, and different projects that I have carried out. It's not an original idea, but I like it.
 
@@ -13,7 +13,7 @@ This is my digital resume in which you'll be able to find my work experience, qu
 1. On https://github.com/new, create a new repository  
 2. In your terminal, in your home directory, clone the repo
 3. `cd` into the repository that is created and you should see all the files now.
-4. Then, connect this cloned repo to your new personal repo made in Step 1: `git remote set-url origin https://www.github.com/{your-username}/digital-resume.git` (be sure to change your username and remove the curly braces)
+4. Then, connect this cloned repo to your new personal repo made in Step 1: `git remote set-url origin https://www.github.com/{your-username}/digital-curriculum.git` (be sure to change your username and remove the curly braces)
 5. Run `git push origin main` to push the local repo to remote. You should now see this same code in your personal `categorizer` repo.
 
 ## Run Application
