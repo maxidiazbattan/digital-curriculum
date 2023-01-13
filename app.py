@@ -83,7 +83,7 @@ if selected == 'Home':
     st.write(
         """
     - ✔️ 10 Years of accounting experience and more than a year of freelancing experience extracting insights of data and machine learning.
-    - ✔️ Strong knowledge of Python and Excel.
+    - ✔️ Strong knowledge of Python, Excel and SQL.
     - ✔️ Good understanding of statistical principles and their respective applications.
     - ✔️ Good team player.
         """
@@ -180,7 +180,9 @@ if selected == 'Proyects':
     st.write("---")
     st.write(
         """
-    To make some Dashboards besides the libraries previously mentioned I've used Dash which is a Python library to make Dashboards in pure python, the data cleaning was made with the help of Pandas.
+    A dashboard is a user interface, where information is organized and presented in a way that is easy to read. 
+    Through dashboards, stakeholders can quickly identify current and historical performance and can also further utilize the data to define metrics and set goals.
+    To make some Dashboards besides the libraries previously mentioned I've used Dash which is a Python library to make Dashboards in pure python, the data cleansing was made with the help of Pandas.
     The Dashboards are deployed in Render website, a cloud service platform to deploy web apps, among other things. It takes some seconds to load because the apps are domernt in Render servers.
         """
     )
@@ -201,10 +203,10 @@ if selected == 'Proyects':
     st.write("---")
     st.write(
         """
-    Machine learning is a process that uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes.
+    Machine learning (ML) is a process that uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes.
     As the algorithms ingest training data, it is then possible to produce more precise models based on that data. A machine learning model is the output generated when you train your machine
     learning algorithm with data. After training, when you provide a model with an input, you will be given an output.
-    I have carried out several machine learning projects as well as competitions, where you can see the use of different libraries such as Pandas, Matplotlib, Seaborn, Plotly, Sklearn, Xgboots, LightGBM, Catboost, Shap, etc. 
+    I have carried out several ML projects as well as competitions, where you can see the use of different libraries such as Pandas, Matplotlib, Seaborn, Plotly, Sklearn, Xgboots, LightGBM, Catboost, Shap, etc. 
     Below I'll list some, in my Kaggle profile you can find more.
         """
     )
@@ -212,7 +214,7 @@ if selected == 'Proyects':
     ML =   {
     "📊 Wallmart forecasting - Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
     "📊 House prices - Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-    "📊 Categorizer app - E-commerce categorizer real freelance project ": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
+    "📊 Categorizer app (freelance project) - E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
             }
 
 
