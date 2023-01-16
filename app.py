@@ -11,7 +11,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital Resume | Maximiliano Diaz Battan"
+PAGE_TITLE = "Resume | Maximiliano Diaz Battan"
 PAGE_ICON = ":wave:"
 NAME = "Maximiliano Diaz Battan"
 DESCRIPTION =   """
@@ -165,9 +165,9 @@ if selected == 'Proyects':
     )
 
     EDA =   {
-    "📊 Kaggle survey EDA - Extracting insights about Kagglers users": "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
-    "📊 Covid Latin america EDA - Covid pandemic analysis over Latin america": "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
-    "📊 Covid impact on learning EDA - Covid pandemic impact on american students": "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
+    "📊 Kaggle survey EDA | Extracting insights about Kagglers users": "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
+    "📊 Covid Latin america EDA | Covid pandemic analysis over Latin america": "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
+    "📊 Covid impact on learning EDA | Covid pandemic impact on american students": "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
             }
 
 
@@ -188,9 +188,9 @@ if selected == 'Proyects':
     )
 
     DASBOARDS =   {
-    "📊 Covid dashboard - Covid pandemic Dashboard": " https://covid-dashboard-colj.onrender.com/",
-    "📊 Crypto dashboard - Cryptocurrencies Dashboard": "https://crypto-dashboard-33bn.onrender.com/",
-    "📊 House prices Dashboard - New York house prices Dashboard": "https://ny-house-prices-dashboard.onrender.com/",
+    "📊 Covid dashboard | Covid pandemic Dashboard": " https://covid-dashboard-colj.onrender.com/",
+    "📊 Crypto dashboard | Cryptocurrencies Dashboard": "https://crypto-dashboard-33bn.onrender.com/",
+    "📊 House prices Dashboard | New York house prices Dashboard": "https://ny-house-prices-dashboard.onrender.com/",
             }
 
 
@@ -212,9 +212,9 @@ if selected == 'Proyects':
     )
 
     ML =   {
-    "📊 Wallmart forecasting - Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
-    "📊 House prices - Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-    "📊 Categorizer app (freelance project) - E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
+    "📊 Wallmart forecasting | Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
+    "📊 House prices | Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
+    "📊 Categorizer app (freelance project) | E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
             }
 
 
@@ -234,8 +234,8 @@ if selected == 'Proyects':
     )
 
     DL =   {
-    "📊 Cassava competition - Identify the type of disease present on a cassava leaf image": " https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
-    "📊 Tabular Playground -  Predict the forest cover type (the predominant kind of tree cover) ": "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
+    "📊 Cassava competition | Identify the type of disease present on a cassava leaf image": " https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
+    "📊 Tabular Playground | Predict the forest cover type (the predominant kind of tree cover) ": "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
             }
 
 
