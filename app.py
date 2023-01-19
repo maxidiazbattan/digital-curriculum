@@ -188,9 +188,9 @@ if selected == 'Proyects':
     )
 
     DASBOARDS =   {
-    "📊 Covid dashboard | Covid pandemic Dashboard": " https://covid-dashboard-colj.onrender.com/",
-    "📊 Crypto dashboard | Cryptocurrencies Dashboard": "https://crypto-dashboard-33bn.onrender.com/",
-    "📊 House prices Dashboard | New York house prices Dashboard": "https://ny-house-prices-dashboard.onrender.com/",
+    "📈 Covid dashboard | Covid pandemic Dashboard": " https://covid-dashboard-colj.onrender.com/",
+    "📈 Crypto dashboard | Cryptocurrencies Dashboard": "https://crypto-dashboard-33bn.onrender.com/",
+    "📈 House prices Dashboard | New York house prices Dashboard": "https://ny-house-prices-dashboard.onrender.com/",
             }
 
 
@@ -212,9 +212,9 @@ if selected == 'Proyects':
     )
 
     ML =   {
-    "📊 Wallmart forecasting | Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
-    "📊 House prices | Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-    "📊 Categorizer app (freelance project) | E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
+    "💻 Wallmart forecasting | Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
+    "💻 House prices | Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
+    "💻 Categorizer app (freelance project) | E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
             }
 
 
@@ -234,8 +234,8 @@ if selected == 'Proyects':
     )
 
     DL =   {
-    "📊 Cassava competition | Identify the type of disease present on a cassava leaf image": " https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
-    "📊 Tabular Playground | Predict the forest cover type (the predominant kind of tree cover) ": "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
+    "💻 Cassava competition | Identify the type of disease present on a cassava leaf image": " https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
+    "💻 Tabular Playground | Predict the forest cover type (the predominant kind of tree cover) ": "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
             }
 
 
