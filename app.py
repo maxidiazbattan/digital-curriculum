@@ -83,9 +83,9 @@ if selected == 'Home':
     st.write(
         """
     - ✔️ 10 Years of accounting experience and more than a year of freelancing experience extracting insights of data and machine learning.
-    - ✔️ Strong knowledge of Python, Excel and SQL.
-    - ✔️ Good understanding of statistical principles and their respective applications.
-    - ✔️ Good team player.
+    - ✔️ Deep understanding of Python, Excel and SQL.
+    - ✔️ A strong grasp of statistical principles and their practical applications.
+    - ✔️ Great team player.
         """
     )
 
@@ -114,9 +114,9 @@ if selected == 'Home':
     st.write("👷", "**Self employed - Freelancer** | From 02/2018 to Present")
     st.write(
         """
+    - ► Frelancing data analysis and machine learning jobs.
     - ► Accounting administrative tasks.
-    - ► Works on demand (business plans, economic analysis, feasibility studies, etc.).
-    - ► Occasionally data analysis and machine learning jobs.
+    - ► Business plans, Economic analysis, Feasibility studies, etc.
         """
     )
 
