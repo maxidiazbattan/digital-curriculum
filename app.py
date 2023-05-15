@@ -67,11 +67,10 @@ if selected == 'Home':
     st.header("About me")
     st.write("---")
     st.write(
-        """
-    I am a business administrator with 10 years of experience, who has always been interested in the field of data. 
-    A few years ago I discovered Python and all the cool things you could do with it, and it seemed like a nice addition to my career. 
-    I dedicated myself to studying data analysis with Python, and now I am studying data science, with the idea of doing a master's degree in the
-    next few years and fully transitioning to the field of data.
+    """
+    I have been working as a business administrator for 10 years and have always been fascinated by the field of data. A few years ago, I discovered Python and its vast capabilities. 
+    That's why I decided to focus on studying data analysis with Python and am now pursuing data science. 
+    My goal is to obtain a master's degree in the field of data in the next few years and transition fully into this exciting field.
     """
     )
 
@@ -158,9 +157,9 @@ if selected == 'Proyects':
     st.write("---")
     st.write(
         """
-    Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics, often using statistical graphics and other data visualization methods. 
-    Various statistical models can be used or not, but primarily EDA is used for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.
-    EDA is one of the crucial steps in Data Science that allows us to achieve certain insights and statistical measures of the data we are dealing with. For this task, I've used several Python libraries like Pandas, Numpy, Plotly, and more.
+        Exploratory Data Analysis (EDA) is an approach to analyzing datasets that summarizes their main characteristics using statistical graphics and other data visualization methods. 
+        While various statistical models can be used, EDA is primarily used to see what the data can tell us beyond the formal modeling or hypothesis testing task. 
+        EDA is one of the crucial steps in Data Science that allows us to gain insights and statistical measures of the data we are dealing with. For this task, I utilized several Python libraries such as Pandas, Numpy, Plotly, and more.
         """
     )
 
@@ -179,12 +178,11 @@ if selected == 'Proyects':
     st.subheader("Dashboards")
     st.write("---")
     st.write(
-        """
-    A dashboard is a user interface, where information is organized and presented in a way that is easy to read. 
-    Through dashboards, stakeholders can quickly identify current and historical performance and can also further utilize the data to define metrics and set goals.
-    To make some Dashboards besides the libraries previously mentioned I've used Dash which is a Python library to make Dashboards in pure python, the data cleansing was made with the help of Pandas.
-    The Dashboards are deployed in Render website, a cloud service platform to deploy web apps, among other things. It takes some seconds to load because the apps are domernt in Render servers.
-        """
+    """
+    A dashboard is a user interface that organizes and presents information in an easy-to-read format. Through dashboards, stakeholders can quickly identify current and historical performance and can also utilize the data to define metrics and set goals. 
+    To create dashboards, I used Dash, a Python library that allows you to create dashboards in pure Python. I also used Pandas for data cleansing. 
+    The dashboards are deployed on Render website, a cloud service platform that allows you to deploy web apps among other things. It may take a few seconds to load because the apps are hosted on Render servers.
+    """
     )
 
     DASBOARDS =   {
@@ -202,13 +200,12 @@ if selected == 'Proyects':
     st.subheader("Machine learning")
     st.write("---")
     st.write(
-        """
-    Machine learning (ML) is a process that uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes.
-    As the algorithms ingest training data, it is then possible to produce more precise models based on that data. A machine learning model is the output generated when you train your machine
-    learning algorithm with data. After training, when you provide a model with an input, you will be given an output.
-    I have carried out several ML projects as well as competitions, where you can see the use of different libraries such as Pandas, Matplotlib, Seaborn, Plotly, Sklearn, Xgboots, LightGBM, Catboost, Shap, etc. 
-    Below I'll list some, in my Kaggle profile you can find more.
-        """
+    """
+    Machine learning (ML) is a process that uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes. 
+    As the algorithms ingest training data, it is then possible to produce more precise models based on that data. A machine learning model is the output generated when you train your machine learning algorithm with data. 
+    I have worked on several ML projects and competitions where I have used different libraries such as Pandas, Matplotlib, Seaborn, Plotly, Sklearn, Xgboots, LightGBM, Catboost, Shap, etc. 
+    Below are some examples of my work:
+    """
     )
 
     ML =   {
@@ -226,10 +223,10 @@ if selected == 'Proyects':
     st.subheader("Deep learning")
     st.write("---")
     st.write(
-        """
-    Deep learning (DL) is a computer technique to extract and transform data—with use cases ranging from human speech recognition to animal imagery classification by using
-    multiple layers of neural networks. Each of these layers takes its inputs from previous layers and progressively refines them. The layers are trained by algorithms that 
-    minimize their errors and improve their accuracy. In this way, the network learns to perform a specified task. Below I've shared some DL projects from 2 different Kaggle competitions.
+    """
+    Deep learning (DL) is a computer technique that uses multiple layers of neural networks to extract and transform data. Each of these layers takes its inputs from previous layers and progressively refines them. 
+    The layers are trained by algorithms that minimize their errors and improve their accuracy. In this way, the network learns to perform a specified task, like human speech recognition to animal image classification. 
+    Below are some examples of my DL projects from two different Kaggle competitions:    
     """
     )
 
