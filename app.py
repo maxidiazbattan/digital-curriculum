@@ -82,7 +82,7 @@ if selected == 'Home':
     st.write(
         """
     - ✔️ 10 Years of accounting experience and more than a year of freelancing experience extracting insights of data and machine learning.
-    - ✔️ Deep understanding of Python, Excel and SQL.
+    - ✔️ Deep understanding of Python, SQL and Excel.
     - ✔️ A strong grasp of statistical principles and their practical applications.
     - ✔️ Great team player.
         """
@@ -96,9 +96,9 @@ if selected == 'Home':
     st.write(
         """
     - 💻 Languages: Python, SQL, Excel.
-    - 📊 Data analysis: Pandas, Modin, Rapids (cuDF & cuPY), Sqlite3, Numpy, Matplotlib, Seaborn, Plotly, Dash, and more.
+    - 📊 Data analysis: Pandas, Modin, Rapids (cuDF & cuPY), DuckDB, Sqlite3, Numpy, Matplotlib, Seaborn, Plotly, Dash, and more.
     - 📚 Machine Learning: Sklearn, Rapids (cuML), XGBoost, LightGBM, Catboost, Interpret, Tabnet, Optuna, Feature Engine, SHAP, Streamlit, and more.
-    - 📚 Deep Learning: Pytorch, Pytorch lightning, Timm, SMP, Albumentations, Transformers, and more.
+    - 📚 Deep Learning: Pytorch, Pytorch lightning, Timm, SMP, Albumentations, Audiomentations, Transformers, and more.
     - 🗄️ Others skills: Docker, Git & Github, Office, Linux.
         """
     )
