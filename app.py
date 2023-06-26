@@ -3,6 +3,21 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
 
+# --- PROJECTS CARD FUNCTION ---
+def projects_card(image_url="", proyect_name="",  proyect_url=""):
+
+    card = f"""
+        <div style="border-radius: 10px; padding: 1rem; background-color: #484c63; display: flex; align-items: center; margin-bottom: 0.5rem;">
+            <img src="{image_url}" alt="Project image" style="border-radius: 10%; width: 80px; height: 80px; margin-right: 1rem;">
+            <div style="line-height: 1;">
+                <a href="{proyect_url}" target="_blank" style="font-size: 0.8rem;">{proyect_name}</a>
+            </div>
+        </div>
+    """
+
+    return card
+
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -158,20 +173,22 @@ if selected == 'Proyects':
     st.write(
         """
         Exploratory Data Analysis (EDA) is an approach to analyzing datasets that summarizes their main characteristics using statistical graphics and other data visualization methods. 
-        While various statistical models can be used, EDA is primarily used to see what the data can tell us beyond the formal modeling or hypothesis testing task. 
+        While various statistical models can be used, EDA is primarily used to see what the data can tell us beyond the formal modeling or hypothesis-testing task. 
         EDA is one of the crucial steps in Data Science that allows us to gain insights and statistical measures of the data we are dealing with. For this task, I utilized several Python libraries such as Pandas, Numpy, Plotly, and more.
         """
     )
 
     EDA =   {
-    "📊 Kaggle survey EDA | Extracting insights about Kagglers users": "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
-    "📊 Covid Latin america EDA | Covid pandemic analysis over Latin america": "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
-    "📊 Covid impact on learning EDA | Covid pandemic impact on american students": "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
-            }
+            "kaggle": {'name':"Kaggle survey EDA - Extracting insights about Kagglers users", 'url': "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
+                  'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/31480/logos/thumb76_76.png?t=2021-10-05-16-58-46'},
+            "covid_dl": {'name':"Covid impact on learning EDA - Covid pandemic impact on american students", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
+                  'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/26939/logos/thumb76_76.png?t=2021-07-21-22-06-24'},
+            "covid_la": {'name':"Covid Latin america EDA - Covid pandemic analysis over Latin america", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
+                  'image': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yNm_bQmVwpTENJgydfyRjAHaD4%26pid%3DApi&f=1&ipt=e5cba20137bf7d63bb793c33e488c930f5799123ef056ea9abea0e56a9351e1d&ipo=images'},
+    }
 
-
-    for project, link in EDA.items():
-        st.write(f"[{project}]({link})")
+    for project in EDA:
+        st.markdown(projects_card(image_url=EDA[project]['image'], proyect_name=EDA[project]['name'], proyect_url=EDA[project]['url']), unsafe_allow_html=True)
 
 
     st.write('\n')
@@ -185,15 +202,20 @@ if selected == 'Proyects':
     """
     )
 
-    DASBOARDS =   {
-    "📈 Covid dashboard | Covid pandemic Dashboard": " https://covid-dashboard-colj.onrender.com/",
-    "📈 Crypto dashboard | Cryptocurrencies Dashboard": "https://crypto-dashboard-33bn.onrender.com/",
-    "📈 House prices Dashboard | New York house prices Dashboard": "https://ny-house-prices-dashboard.onrender.com/",
+    DASHBOARDS = {
+        "covid": {'name':"Covid dashboard - Covid pandemic Dashboard", 'url': "https://covid-dashboard-colj.onrender.com/",
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/covid-dashboard/main/assets/covid%20dash.png'},
+
+        "crypto": {'name':"Crypto dashboard - Cryptocurrencies Dashboard", 'url': "https://crypto-dashboard-33bn.onrender.com/",
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/crypto-dashboard/main/assets/crypto%20dash.jpg'},
+
+        "house": {'name':"House prices Dashboard - New York house prices Dashboard", 'url': "https://ny-house-prices-dashboard.onrender.com/",
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/house-prices-dashboard/main/assets/house%20prices.png'},
             }
 
 
-    for project, link in DASBOARDS.items():
-        st.write(f"[{project}]({link})")
+    for project in DASHBOARDS:
+        st.markdown(projects_card(image_url=DASHBOARDS[project]['image'], proyect_name=DASHBOARDS[project]['name'], proyect_url=DASHBOARDS[project]['url']), unsafe_allow_html=True)
     
 
     st.write('\n')
@@ -209,15 +231,19 @@ if selected == 'Proyects':
     )
 
     ML =   {
-    "💻 Wallmart forecasting | Predict sales of Wallmat stores": " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
-    "💻 House prices | Predict house prices": "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-    "💻 Categorizer app (freelance project) | E-commerce categorizer": "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
-            }
+    'wallmart':{'name':"Wallmart forecasting - Predict sales of Wallmat stores",
+                'url': " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
+                'image':'https://storage.googleapis.com/kaggle-organizations/14/thumbnail.png'},
+    'house':{'name':"House prices - Predict house prices",
+                'url' : "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
+             'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png'},
+    'categorizer': {'name':"Categorizer app - E-commerce categorizer real freelance project ",
+                     'url': "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
+                    'image':'https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa/raw/main/streamlit-categorizador-repuestosya.jpg'}
+    }
 
-
-    for project, link in ML.items():
-        st.write(f"[{project}]({link})")
-
+    for project in ML:
+        st.markdown(projects_card(image_url=ML[project]['image'], proyect_name=ML[project]['name'], proyect_url=ML[project]['url']), unsafe_allow_html=True)
 
     st.write('\n')
     st.subheader("Deep learning")
@@ -231,13 +257,16 @@ if selected == 'Proyects':
     )
 
     DL =   {
-    "💻 Cassava competition | Identify the type of disease present on a cassava leaf image": " https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
-    "💻 Tabular Playground | Predict the forest cover type (the predominant kind of tree cover) ": "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
-            }
+    'cassava':{'name':"Cassava competition - Identify the type of disease present on a cassava leaf image",
+               'url':" https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
+               'image': 'https://storage.googleapis.com/kaggle-organizations/3758/thumbnail.jpg?r=320'},
+    'tps':{'name':"📊 Tabular Playground -  Predict the forest cover type (the predominant kind of tree cover) ",
+            'url': "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
+           'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/28012/logos/thumb76_76.png?t=2022-10-27-06-57-32'}
+    }
 
-
-    for project, link in DL.items():
-        st.write(f"[{project}]({link})")
+    for project in DL:
+        st.markdown(projects_card(image_url=DL[project]['image'], proyect_name=DL[project]['name'], proyect_url=DL[project]['url']), unsafe_allow_html=True)
 
 
 if selected == 'Contact':
@@ -245,7 +274,7 @@ if selected == 'Contact':
     st.write('\n')
     st.subheader("Contact information")
     st.write("---")
-    st.write("Maximiliano Diaz Battan")
+    st.write("Email:")
     st.write("📫", EMAIL)
 
     # --- Download CV ---
