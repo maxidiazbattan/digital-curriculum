@@ -4,7 +4,7 @@
 
 This is my resume, made entirely with Streamlit (a Python library to create web apps and pages), in which you'll be able to find my work experience, qualifications, and different projects that I have carried out. It's not an original idea, but I like it. To see it, click on the following badge:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://maxidiazbattan-digital-resume-app-v778fo.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://maxidiazbattan-digital-curriculum.streamlit.app/)
 
 
 # Streamlit Share Deployment
