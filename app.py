@@ -99,7 +99,6 @@ if selected == 'Home':
     - ✔️ 10 Years of accounting experience and more than a year of freelancing experience extracting insights of data and machine learning.
     - ✔️ Deep understanding of Python, SQL and Excel.
     - ✔️ A strong grasp of statistical principles and their practical applications.
-    - ✔️ Great team player.
         """
     )
 
