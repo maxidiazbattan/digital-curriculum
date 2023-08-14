@@ -179,11 +179,11 @@ if selected == 'Proyects':
 
     EDA =   {
             "kaggle": {'name':"Kaggle survey EDA - Extracting insights about Kagglers users", 'url': "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
-                  'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/31480/logos/thumb76_76.png?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1691584085&Signature=IIpS9ZLdiNMO8MtnHaYoTU7yRdtmm2tmbZZIltGvx%2BakpeO%2B37FGZf3M%2BnKO8hK9lh8BDJHNswMP0k8tWrsKCre2eqEvDF97IkKJIUjUCueQ4vBwVpVpYKGMLIJkuKo79v5q9ZCjVvcQJhBtwkZmRASbCAnWBOtja8mjnWszKmIAUCYxwP7Ur9DndbSt%2BwtjmDn81yHCemnH2obwZvz4db6vpOBX%2Bje2sOEQg1URCFVzJk%2FWFwIjf9wF64UyMyowV0KhbvUSiL13CEqmXzXjybftR3u268B702Dx%2BWKXAnjVFJMMP1upgG5D1xQ5t1kGOdSyb6LVPVOSjIvbtrKQMQ%3D%3D'},
+                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_1.png'},
             "covid_dl": {'name':"Covid impact on learning EDA - Covid pandemic impact on american students", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
-                  'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/26939/logos/thumb76_76.png?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1691584137&Signature=eJXmNoeSmZ12a%2FGMPQHZlGuux1sad0WDQKoW4zosZPPdxbf2vdncdgRuzhare2%2BQoZr9PfUaCc3KB9yCpB61UApIeGv5%2FXCqND%2FLgwOsCWHNGI2tZOhRjVxavdWYE1XdE3ZxLr%2FzcD3zyePFTCI7O4yJNIRkPkk3qZ%2FWqxenjyQcvHlbgq6owRvHvgWG19BbbZn%2F%2FEGsOFEykzjH%2BQ1kJvr4Ajj3%2F3iwvO5xNRW7ev5l1PrqVXAShF8vE6lRLW6ygqaeRmrElIIIdJnUsaRvduLMNMu5G4Ze7ZimRU45%2FF7W5dtOmBHU3Bw9%2FDojQ0ay2ay6HHr7JIvXXT1PcUWdIQ%3D%3D'},
+                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_2.png'},
             "covid_la": {'name':"Covid Latin america EDA - Covid pandemic analysis over Latin america", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
-                  'image': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yNm_bQmVwpTENJgydfyRjAHaD4%26pid%3DApi&f=1&ipt=e5cba20137bf7d63bb793c33e488c930f5799123ef056ea9abea0e56a9351e1d&ipo=images'},
+                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_3.png'},
     }
 
     for project in EDA:
@@ -232,10 +232,10 @@ if selected == 'Proyects':
     ML =   {
     'wallmart':{'name':"Wallmart forecasting - Predict sales of Wallmat stores",
                 'url': " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
-                'image':'https://storage.googleapis.com/kaggle-organizations/14/thumbnail.png'},
+                'image':'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_7.png'},
     'house':{'name':"House prices - Predict house prices",
                 'url' : "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-             'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/5407/logos/thumb76_76.png?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1691584173&Signature=M0QoSsZ7D18Uuqo9MDhryg30Aj%2FUDidfQwZIO8uZ5u771dkg0%2BZPD844POJrngofromzGzbeFx0CWPnxLQeLk5O4namqesWCV0BfctHIEY7zDKLCUBgnpkkLwp081cnbUrSVEXgWl0dshe1Pm5E8EL3RytQ3Fg%2Ft9RzMbBYgld0jlSKWWopE1E6ZOovlbQUhQaVV48u%2BB40VJ1fsb5YY1%2B5c%2BqlOW%2FMiBgi2%2FSaBYtgkz%2Bv6dWbXTYS%2FdzGYcE7%2Fsod%2F1uEtUsZl7tDdPJAJWGr%2B4ZI5SlTfooA5f1H6Do7fAjSccLPRC1rRqKFOd6td3Xwi%2FrN7g1A7KmDEF3TMRw%3D%3D'},
+             'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_8.png'},
     'categorizer': {'name':"Categorizer app - E-commerce categorizer real freelance project ",
                      'url': "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
                     'image':'https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa/raw/main/streamlit-categorizador-repuestosya.jpg'}
@@ -258,10 +258,10 @@ if selected == 'Proyects':
     DL =   {
     'cassava':{'name':"Cassava competition - Identify the type of disease present on a cassava leaf image",
                'url':" https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
-               'image': 'https://storage.googleapis.com/kaggle-organizations/3758/thumbnail.jpg?r=320'},
+               'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_10.jpg'},
     'tps':{'name':"📊 Tabular Playground -  Predict the forest cover type (the predominant kind of tree cover) ",
             'url': "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
-           'image': 'https://storage.googleapis.com/kaggle-competitions/kaggle/28012/logos/thumb76_76.png?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1691584221&Signature=LDQ6WZudDLB9UOuC841rLQj6a9I3UnAj0qw8w5yG7HiXXrTTxFznzzVvFpW%2BZtS3pic4vWOueHbiYRA79TiUM4N9Vx%2BgpGyONITrEVSdDKopK3IgQNUmZnHU%2Fy55giTexZydqPkwwt%2FyoP1LrUE3dI6MQyy%2BBWfEUpoH4UtRQT6rgisT9HhqDbJ7IekVI0F%2Bh%2BEk1jGNswWzquP%2F3aXz8iot8UKcoKSdZW1NrRN3hNc97tA1mfgNw087C5iZeC5R%2BY1%2B7HatB2v1C8VPgEtwpvnxV8sRSjxcUejbiIo93Ddn6A13bT7xbX%2BWDANUg4Ci%2BAsU9uRTuhLe9fzTNVLkLw%3D%3D'}
+           'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_11.png'}
     }
 
     for project in DL:
