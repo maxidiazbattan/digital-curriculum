@@ -179,7 +179,7 @@ if selected == 'Proyects':
 
     EDA =   {
             "kaggle": {'name':"Kaggle survey EDA - Extracting insights about Kagglers users", 'url': "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
-                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_1.png'},
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_1.png'},
             "covid_dl": {'name':"Covid impact on learning EDA - Covid pandemic impact on american students", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
                   'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_2.png'},
             "covid_la": {'name':"Covid Latin america EDA - Covid pandemic analysis over Latin america", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
