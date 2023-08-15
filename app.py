@@ -181,9 +181,9 @@ if selected == 'Proyects':
             "kaggle": {'name':"Kaggle survey EDA - Extracting insights about Kagglers users", 'url': "https://www.kaggle.com/code/maxdiazbattan/kaggle-survey-2021-eda-initial-insights",
                   'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_1.png'},
             "covid_dl": {'name':"Covid impact on learning EDA - Covid pandemic impact on american students", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-impact-digital-learning-data-cleaning-eda",
-                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_2.png'},
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_2.png'},
             "covid_la": {'name':"Covid Latin america EDA - Covid pandemic analysis over Latin america", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
-                  'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_3.png'},
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_3.png'},
     }
 
     for project in EDA:
@@ -232,10 +232,10 @@ if selected == 'Proyects':
     ML =   {
     'wallmart':{'name':"Wallmart forecasting - Predict sales of Wallmat stores",
                 'url': " https://www.kaggle.com/code/maxdiazbattan/wallmart-sales-top-3-eda-feature-engineering",
-                'image':'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_7.png'},
+                'image':'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_7.png'},
     'house':{'name':"House prices - Predict house prices",
                 'url' : "https://www.kaggle.com/code/maxdiazbattan/house-prices-top-4",
-             'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_8.png'},
+             'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_8.png'},
     'categorizer': {'name':"Categorizer app - E-commerce categorizer real freelance project ",
                      'url': "https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa",
                     'image':'https://github.com/maxidiazbattan/streamlit-categorizador-RepuestosYa/raw/main/streamlit-categorizador-repuestosya.jpg'}
@@ -258,10 +258,10 @@ if selected == 'Proyects':
     DL =   {
     'cassava':{'name':"Cassava competition - Identify the type of disease present on a cassava leaf image",
                'url':" https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
-               'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_10.jpg'},
+               'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_10.jpg'},
     'tps':{'name':"📊 Tabular Playground -  Predict the forest cover type (the predominant kind of tree cover) ",
             'url': "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
-           'image': 'https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_11.png'}
+           'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_11.png'}
     }
 
     for project in DL:
