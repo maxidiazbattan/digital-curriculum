@@ -3,5 +3,5 @@
 ![thumb_3.png](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_3.png?raw=true)
 ![thumb_7.png](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_7.png?raw=true)
 ![thumb_8.png](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_8.png?raw=true)
-![thumb_10.png](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_10.png?raw=true)
+![thumb_10.jpg](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_10.jpg?raw=true)
 ![thumb_11.png](https://github.com/maxidiazbattan/digital-curriculum/blob/main/assets/thumbs/thumb_11.png?raw=true)
