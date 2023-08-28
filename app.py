@@ -159,7 +159,7 @@ if selected == 'Home':
     )
 
 
-if selected == 'Proyects':
+if selected == 'Projects':
 
     # --- Projects ---
     st.write('\n')
