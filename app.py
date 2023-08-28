@@ -49,7 +49,7 @@ profile_pic = Image.open(profile_pic)
 
 selected = option_menu(
     menu_title=None,
-    options=['Home', 'Proyects', 'Contact'],
+    options=['Home', 'Projects', 'Contact'],
     icons=['house', 'book', 'envelope'],
     default_index=0,
     orientation='horizontal',
