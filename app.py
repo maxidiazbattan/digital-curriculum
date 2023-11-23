@@ -184,6 +184,8 @@ if selected == 'Projects':
                   'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_2.png'},
             "covid_la": {'name':"Covid Latin america EDA - Covid pandemic analysis over Latin america", 'url': "https://www.kaggle.com/code/maxdiazbattan/covid-eda-on-latin-america-dash-dashboard",
                   'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_3.png'},
+            "elections": {'name':"Elections EDA - Argentina presidential elections 2023", 'url': "https://www.kaggle.com/code/maxdiazbattan/elecciones-presidenciales-argentina-2023",
+                  'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_4.png'},
     }
 
     for project in EDA:
