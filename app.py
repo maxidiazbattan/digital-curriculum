@@ -83,9 +83,10 @@ if selected == 'Home':
     st.write("---")
     st.write(
     """
-    I have been working as a business administrator for 10 years and have always been fascinated by the field of data. A few years ago, I discovered Python and its vast capabilities. 
-    That's why I decided to focus on studying data analysis with Python and am now pursuing data science. 
-    My goal is to obtain a master's degree in the field of data in the next few years and transition fully into this exciting field.
+    Experienced business manager with more than 10 years of experience in accounting, finance, and banking. Several years ago, I began studying Python for data analysis and science to complement my services.
+    Currently, I work as a freelancer, I can assist you with all aspects of data analysis, leveraging my experience as an administrator to gain valuable insights from your data and improve your business operations.
+    To stay current with advancements and acquire new skills, I dedicate a significant portion of my free time to Kaggle, a data-focused platform. My participation in various competitions, including those in analytics & visualization, 
+    tabular data, computer vision, audio, natural language processing, and more, has facilitated the development of pipelines for addressing these different types of problems.
     """
     )
 
@@ -96,7 +97,7 @@ if selected == 'Home':
     st.write("---")
     st.write(
         """
-    - ✔️ 10 Years of accounting experience and more than a year of freelancing experience extracting insights of data and machine learning.
+    - ✔️ 10 Years of accounting experience and more than two of freelancing experience extracting insights of data and machine learning.
     - ✔️ Deep understanding of Python, SQL and Excel.
     - ✔️ A strong grasp of statistical principles and their practical applications.
         """
