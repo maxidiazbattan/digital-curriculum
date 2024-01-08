@@ -86,9 +86,6 @@ if selected == 'Home':
     Experienced business manager with more than 10 years of experience in accounting, finance, and banking. Several years ago, I began studying Python for data analysis and science to complement my services.
     
     Currently, I work as a freelancer, I can assist you with all aspects of data analysis, leveraging my experience as an administrator to gain valuable insights from your data and improve your business operations.
-    
-    To stay current with advancements and acquire new skills, I dedicate a significant portion of my free time to Kaggle, a data-focused platform. Participating in various competitions, including those in analytics & visualization, 
-    tabular data, computer vision, audio, natural language processing, and more, has facilitated the development of pipelines for addressing these different types of problems.
     """
     )
 
