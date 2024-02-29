@@ -128,7 +128,7 @@ if selected == 'Home':
     st.write(
         """
     - ► Data analysis and machine learning jobs (data presentation, management of large volumes of data, pipeline development to streamline processes, modeling and model interpretation, etc).
-    - ► Administrative & Accounting tasks (business plans, economic analyses, feasibility studies, etc)
+    - ► Administrative & Accounting tasks (business plans, economic analyses, feasibility studies, etc).
         """
     )
 
