@@ -30,7 +30,7 @@ PAGE_TITLE = "Resume | Maximiliano Diaz Battan"
 PAGE_ICON = ":wave:"
 NAME = "Maximiliano Diaz Battan"
 DESCRIPTION =   """
-                Data Scientits | Data Analyst | BBA 
+                Data Science | BBA 
                 """
 EMAIL = "maxidiazbattan@gmail.com"
 
