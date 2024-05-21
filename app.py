@@ -21,7 +21,7 @@ def projects_card(image_url="", proyect_name="",  proyect_url=""):
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+# resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
@@ -277,13 +277,13 @@ if selected == 'Contact':
     st.write("Email:")
     st.write("📫", EMAIL)
 
-    # --- Download CV ---
-    st.download_button(
-            label=" 📄 Download Resume",
-            data=PDFbyte,
-            file_name=resume_file.name,
-            mime="application/octet-stream",
-        )
+    # # --- Download CV ---
+    # st.download_button(
+    #         label=" 📄 Download Resume",
+    #         data=PDFbyte,
+    #         file_name=resume_file.name,
+    #         mime="application/octet-stream",
+    #     )
     
     SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/maxidiazbattan/?locale=en_US",
