@@ -283,7 +283,7 @@ if selected == 'Projects':
     AI =   {
     'chatbot':{'name':"RAG chatbot - Chat with documents using large language models (LLMs) for assistance",
                'url':" https://github.com/maxidiazbattan/streamlit-RAG-llamaindex-ollama",
-               'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_12.jpg'},
+               'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_12.png'},
     'agent':{'name':"Agentic RAG - Chat with documents powered by agents",
              'url': "https://github.com/maxidiazbattan/Agentic-RAG-llamaindex-ollama",
              'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_13.png'}
