@@ -245,6 +245,7 @@ if selected == 'Projects':
     for project in ML:
         st.markdown(projects_card(image_url=ML[project]['image'], proyect_name=ML[project]['name'], proyect_url=ML[project]['url']), unsafe_allow_html=True)
 
+
     st.write('\n')
     st.subheader("Deep learning")
     st.write("---")
@@ -261,11 +262,34 @@ if selected == 'Projects':
                'url':" https://www.kaggle.com/code/maxdiazbattan/cassava-pipeline-top-5-pytorch-lightning-w-b",
                'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_10.jpg'},
     'tps':{'name':"📊 Tabular Playground -  Predict the forest cover type (the predominant kind of tree cover) ",
-            'url': "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
+           'url': "https://www.kaggle.com/code/maxdiazbattan/tps-2021-pytorch-lightning",
            'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_11.png'}
     }
 
     for project in DL:
+        st.markdown(projects_card(image_url=DL[project]['image'], proyect_name=DL[project]['name'], proyect_url=DL[project]['url']), unsafe_allow_html=True)
+
+
+    st.write('\n')
+    st.subheader("Generative AI")
+    st.write("---")
+    st.write(
+    """
+    Generative AI (Gen AI) is a subset of artificial intelligence systems designed to generate new content or data that is similar to what they have been trained on. 
+    Below are some examples of my most recents Gen AI projects:    
+    """
+    )
+
+    AI =   {
+    'chatbot':{'name':"RAG chatbot - Chat with documents using large language models (LLMs) for assistance",
+               'url':" https://github.com/maxidiazbattan/streamlit-RAG-llamaindex-ollama",
+               'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_12.jpg'},
+    'agent':{'name':"Agentic RAG - Chat with documents powered by agents",
+             'url': "https://github.com/maxidiazbattan/Agentic-RAG-llamaindex-ollama",
+             'image': 'https://raw.githubusercontent.com/maxidiazbattan/digital-curriculum/main/assets/thumbs/thumb_13.png'}
+    }
+
+    for project in AI:
         st.markdown(projects_card(image_url=DL[project]['image'], proyect_name=DL[project]['name'], proyect_url=DL[project]['url']), unsafe_allow_html=True)
 
 
