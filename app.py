@@ -290,7 +290,7 @@ if selected == 'Projects':
     }
 
     for project in AI:
-        st.markdown(projects_card(image_url=DL[project]['image'], proyect_name=DL[project]['name'], proyect_url=DL[project]['url']), unsafe_allow_html=True)
+        st.markdown(projects_card(image_url=AI[project]['image'], proyect_name=AI[project]['name'], proyect_url=DL[project]['url']), unsafe_allow_html=True)
 
 
 if selected == 'Contact':
